@@ -1,3 +1,4 @@
+agent_class: LlmAgent
 name: gemma_baseline_agent
 model: gemma-4-31b-it-qat-w4a16-ct
 system_prompt: !include prompts/system.md
