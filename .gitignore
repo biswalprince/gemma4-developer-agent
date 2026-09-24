@@ -1,0 +1,15 @@
+# Ignore large model weights and adapters
+adapters/
+*.safetensors
+*.bin
+*.pt
+
+# Ignore archives and datasets
+*.zip
+data/
+*.jsonl
+
+# Ignore Python caches & environment files
+__pycache__/
+.env
+venv/
