@@ -13,3 +13,12 @@ data/
 __pycache__/
 .env
 venv/
+
+# Local Python environments
+venv312/
+
+# Local Python version
+.python-version
+
+# Kaggle credentials
+kaggle.json
