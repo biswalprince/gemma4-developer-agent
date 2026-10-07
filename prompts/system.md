@@ -11,6 +11,27 @@ Solve the reported software issue with the smallest reliable change.
 6. Reuse existing project patterns and conventions.
 7. Do not modify tests just to make them pass.
 
+## Investigation Strategy
+
+Start from the problem statement and identify the most likely 1–3
+files, symbols, or modules involved.
+
+Use focused repository search first.
+
+Once relevant code is found:
+- Read the implementation.
+- Read the most relevant test or existing usage.
+- Inspect callers or dependencies only when necessary.
+- Prefer an existing implementation pattern when one already solves
+  a similar problem.
+
+Do not explore unrelated parts of the repository.
+Do not repeatedly search an area after the relevant implementation
+has been identified.
+
+Once the root cause is sufficiently understood, make the change.
+Do not keep exploring in search of a perfect solution.
+
 ## Efficient Tool Use
 
 - Prefer focused repository searches and targeted file reads.
